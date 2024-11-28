@@ -12,11 +12,8 @@ jobs:
 
 
     steps:
-      - name: 'Testing github action'
-        run: pwd
-
-      - name: 'Testing printing'
-        run: echo Malk
+      - name: 'Printing folder contents'
+        run: ls
 
 
 
